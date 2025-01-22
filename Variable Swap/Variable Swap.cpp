@@ -7,9 +7,11 @@ int main()
 
 	cout << "Define your first variable: ";
 	cin >> x;
-	cout << "Define your second variabel: ";
+	cout << "Define your second variable: ";
 	cin >> y;
 
+	cout << "Variable 1 was: " << x << endl << "Variable 2 is was: " << y << endl;
+	
 	z = x;
 	x = y;
 	y = z;
